@@ -1,0 +1,14 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns":
+            [
+                ".git",
+                ".ipynb_checkpoints",
+                "notebooks/*/.ipynb_checkpoints"
+            ],
+		}
+	]
+}

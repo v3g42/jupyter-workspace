@@ -1,0 +1,17 @@
+# Ignore checkpoints created
+.ipynb_checkpoints
+
+# Sublime Projects
+*.sublime-workspace
+
+__pycache__/
+*.py[cod]
+*$py.class
+config/db.conf
+
+
+#OS specific
+.DS_Store
+
+#text swap files
+*.swp
