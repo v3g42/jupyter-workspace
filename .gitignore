@@ -4,6 +4,9 @@
 # Sublime Projects
 *.sublime-workspace
 
+# Ignoring paysense notebooks
+paysense/
+
 __pycache__/
 *.py[cod]
 *$py.class
