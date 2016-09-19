@@ -7,6 +7,9 @@
 # Ignoring paysense notebooks
 paysense/
 
+# Titanic
+notebooks/titanic/data/output_*
+
 __pycache__/
 *.py[cod]
 *$py.class
