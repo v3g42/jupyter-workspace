@@ -3,6 +3,7 @@
 ### Kaggle Problems
 
 1. [Titanic][1]
+1. [Digit Recogniser][4]
 
 ### Setup
 
@@ -21,3 +22,4 @@ docker run -it -p 8888:8888  -v ~/projects/jupyter-workspace/notebooks:/home/jov
 [1]: ./notebooks/titanic/titanic.ipynb
 [2]: https://github.com/jupyter/docker-stacks
 [3]: https://gist.github.com/kidpixo/f4318f8c8143adee5b40
+[4]: ./notebooks/digits/digits.ipynb
