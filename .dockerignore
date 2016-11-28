@@ -1,0 +1,13 @@
+# Ignore checkpoints created
+.ipynb_checkpoints
+
+# Sublime Projects
+*.sublime-workspace
+
+notebooks/
+
+__pycache__/
+*.py[cod]
+*$py.class
+config/db.conf
+
