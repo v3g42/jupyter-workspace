@@ -1,0 +1,8 @@
+all-spark-notebook:
+  image: all-spark-notebook
+  environment:
+    MASTER: local[*]
+  ports:
+    - 8888:8888
+  volumes:
+    - ./notebooks:/home/jovyan/work
