@@ -9,10 +9,28 @@
 
 1) Install docker
 
-2) Run docker stacks data-science container
+2) Run docker stacks data-science container ( `datascience-notebook` or `all-spark-notebook`)
 
+> datascience-notebook
 ```
-docker run -it -p 8888:8888  -v ~/projects/jupyter-workspace/notebooks:/home/jovyan/work -P jupyter/datascience-notebook
+docker build -t datascience-notebook .
+docker run --rm -it -p 8888:8888  -v ~/projects/jupyter-workspace/notebooks:/home/jovyan/work -P datascience-notebook
+```
+
+> all-spark-notebook
+```
+docker build -t all-spark-notebook .
+docker run --rm -it -p 8888:8888  -v ~/projects/jupyter-workspace/notebooks:/home/jovyan/work -P all-spark-notebook
+```
+
+### Get local ip on Mac
+```
+ifconfig en0 | awk '$1 == "inet" {print $2}'
+```
+
+### Cleanup
+```
+docker rm -v $(docker ps -a -q -f status=exited)
 ```
 
 ### Resources

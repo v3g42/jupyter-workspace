@@ -1,4 +1,4 @@
-FROM jupyter/datascience-notebook
+FROM jupyter/all-spark-notebook
 
 MAINTAINER vivekg342
 
