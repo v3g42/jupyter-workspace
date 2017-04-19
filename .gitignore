@@ -21,3 +21,4 @@ config/db.conf
 
 #text swap files
 *.swp
+metastore_db/
