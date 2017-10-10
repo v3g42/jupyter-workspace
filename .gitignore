@@ -4,8 +4,8 @@
 # Sublime Projects
 *.sublime-workspace
 
-# Ignoring paysense notebooks
-paysense/
+# Ignoring private notebooks
+private/
 
 # Titanic
 notebooks/titanic/data/output_*
